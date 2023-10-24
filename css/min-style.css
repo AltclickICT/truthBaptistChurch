@@ -39,11 +39,24 @@ body {
     /* width: 100%; */
     text-align: center;
     opacity: 0.5;
-    width: 70%;
+    width: fit-content;
+    margin: auto;
 }
 
 .text #texting {
     opacity: 1 !important;
+}
+
+.text h2 {
+    color: white
+}
+
+.text #texting a {
+    background: #DA9100;
+    padding: 10px;
+    border: 1px solid #DA9100;
+    border-radius: 5px;
+    color: white;
 }
 
 
