@@ -46,15 +46,29 @@ require_once 'header.php';
                                 <p>By fill your name and the amount you want to support below:</p>
                                 <hr>
                             </center>
-                            <form action="" method="post">
+                            
+                            <!-- LIVE KEY: FLWPUBK-ea911ad04be9e1019db650231994ec1c-X -->
+                            
+                            <form method="POST" action="https://checkout.flutterwave.com/v3/hosted/pay">
+                                <input type="hidden" name="public_key" value="FLWPUBK_TEST-d815f55369b6636cb374bb2a733afbc7-X" />
+                                <input type="hidden" name="customer[email]" value="support@truthbaptistabuja.org" />
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name" required>
+                                    <input type="text" name="customer[name]" class="form-control" placeholder="Name" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <select name="" id="" class="form-control">
+                                    <input type="text" name="customer[phone_number]" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <!-- here -->
+                            <input type="hidden" name="currency" value="NGN" />
+                            <input type="hidden" name="meta[token]" value="54" />
+                            <!-- here -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select name="tx_ref" id="" class="form-control">
                                     <option value="" >What is your donation for?</option>
                                         <option value="tithe">Tithe</option>
                                         <option value="offering">Offering</option>
@@ -63,15 +77,17 @@ require_once 'header.php';
                                     <!-- <input type="text" class="form-control" placeholder="What are you supporting for?"> -->
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="number" min="100" class="form-control" placeholder="Amount" required>
+                                    <input type="number" min="100" name="amount" class="form-control" placeholder="Amount" required>
                                 </div>
                             </div>
+                            <input type="hidden" name="redirect_url" value="http://truthbaptistabuja.org" />
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="submit" value="Donate" class="btn btn-primary btn-modify">
+                                    <input type="submit" value="Donate" class="btn btn-primary btn-modify" id="start-payment-button" width="100%">
                                 </div>
+                                <!-- <button type="submit" id="start-payment-button">Pay Now</button> -->
                             </div>
                             </form>
                         </div>

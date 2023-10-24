@@ -2,10 +2,10 @@
 require_once 'header.php';
 ?>
 <div class="container-wrap">
-            <aside id="fh5co-hero">
+            <aside id="fh5co-hero" style="background:#6495ED;">
                 <div class="flexslider">
                     <ul class="slides">
-                        <li style="background-image: url(images/img_bg_1.jpg);">
+                        <li style="background-color:#6495ED;">
                             <div class="overlay"></div>
                             <div class="container-fluid">
                                 <div class="row">
@@ -14,14 +14,14 @@ require_once 'header.php';
                                             <div class="slider-text-inner">
                                                 <h1>Living &amp; Sharing the Gospel of God</h1>
                                                 <p>
-                                                    <a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li style="background-image: url(images/img_bg_2.jpg);">
+                        <li style="background-color:#6495ED;">
                             <div class="overlay"></div>
                             <div class="container-fluid">
                                 <div class="row">
@@ -30,14 +30,14 @@ require_once 'header.php';
                                             <div class="slider-text-inner">
                                                 <h1>Tell The World About Jesus</h1>
                                                 <p>
-                                                    <a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li style="background-image: url(images/img_bg_3.jpg);">
+                        <li style="background-color:#6495ED;">
                             <div class="overlay"></div>
                             <div class="container-fluids">
                                 <div class="row">
@@ -46,7 +46,7 @@ require_once 'header.php';
                                             <div class="slider-text-inner text-center">
                                                 <h1>Know More About Jesus</h1>
                                                 <p>
-                                                    <a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -66,9 +66,11 @@ require_once 'header.php';
             </div>
 <?php
 require_once 'misionaries.php';
+
 ?>
+
             <hr>
-            <div id="fh5co-counter" class="fh5co-counters">
+            <!-- <div id="fh5co-counter" class="fh5co-counters">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center animate-box">
                         <p>We are located Off Dr. Alasa Street, Behind Kasham Hotel, Area D, Nyanya, Abuja.</p>
@@ -97,117 +99,12 @@ require_once 'misionaries.php';
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="fh5co-services" class="fh5co-light-grey">
-                <div class="row animate-box">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                        <h2>Ministries</h2>
-                        <p>Find among is our ministries to God's people</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/graduation.jpg" alt="Providence Baptist College"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Providence Baptist College</a></h3>
-                                <p>Our live events...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/baptism.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Foundation of my Faith</a></h3>
-                                <p>We are alway avaible to offer biblical counseling; Monday and Wednesday - 10am to 3pm</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/school.jpg" alt="Foundation of Baptist Academy"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Foundation of Baptist Academy</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/youths.jpg" alt="Youth Ministry"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Youth Ministry</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/sunday-school1.png" alt="Sunday School"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Sunday School</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/awana.jpg" alt="Awana"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Awana</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/bible-club5.jpg" alt="Bible Club"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Bible Club</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/bus-ministry.jpg" alt="Bus Ministry"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Bus Ministry</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/prison-ministry.jpg" alt="Prison Ministry"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Prison Ministry</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box">
-                        <div class="services">
-                            <a href="news.php" class="img-holder"><img class="img-responsive" src="images/tbc/deaf1.jpg" alt="Deaf Ministry"></a>
-                            <div class="desc">
-                                <h3><a href="news.php">Deaf Ministry</a></h3>
-                                <p>We render counseling for children and give them biblical studies...</p>
-                                <a href="news.php">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
+
+<?php
+require_once 'ministries.php';
+
+?>
             <div id="sermons">
             <div id="fh5co-sermon">
                 <div class="row animate-box">
@@ -219,7 +116,7 @@ require_once 'misionaries.php';
                 <div class="row">
                     <div class="col-md-4 text-center animate-box">
                         <div class="sermon-entry">
-                            <div class="sermon" style="background-image: url(images/sermon-1.jpg);">
+                            <div class="sermon" style="background:#DA9100;">
                                 <div class="play">
                                     <!-- <video class="popup-vimeo" src="video.mp4" controls></video> -->
                                     <a class="popup-vimeo" href="video.mp4">
@@ -232,7 +129,7 @@ require_once 'misionaries.php';
                     </div>
                     <div class="col-md-4 text-center animate-box">
                         <div class="sermon-entry">
-                            <div class="sermon" style="background-image: url(images/sermon-3.jpg);">
+                            <div class="sermon" style="background: #DA9100;">
                                 <div class="play">
                                     <a class="popup-vimeo" href="video.mp4"><i class="icon-play3"></i></a>
                                 </div>
@@ -243,7 +140,7 @@ require_once 'misionaries.php';
                     </div>
                     <div class="col-md-4 text-center animate-box">
                         <div class="sermon-entry">
-                            <div class="sermon" style="background-image: url(images/sermon-2.jpg);">
+                            <div class="sermon" style="background:#DA9100;">
                                 <div class="play">
                                     <a class="popup-vimeo" href="video.mp4"><i class="icon-play3"></i></a>
                                 </div>
@@ -255,7 +152,7 @@ require_once 'misionaries.php';
                 </div>
             </div>
             </div>
-            <div id="fh5co-bible-verse">
+            <div id="fh5co-bible-verse" style="background:#DA9100;">
                 <div class="overlay"></div>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
@@ -295,35 +192,36 @@ require_once 'misionaries.php';
                 <div class="row animate-box">
                     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
                         <h2>Other Events & Activities</h2>
-                        <p>.................</p>
                     </div>
+                    
                 </div>
-                <div class="row">
-                    <div class="col-md-4 animate-box">
+                
+                <div class="container row" style="display:flex;">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">SUNDAY</span> -->
                             <span class="date">SMITE</span>
                             <!-- <h3><a href="#">Service</a></h3> -->
                             <p>8:00am-10:00am</p>
-                            <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                            <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">TUESDAY</span> -->
                             <span class="date">CONFERENCES</span>
                             <!-- <h3><a href="#">Marriage Course</a></h3> -->
                             <p>4:30pm - 6:00pm</p>
-                            <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                            <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-2 col-md-3 col-sm-4 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">WEDNESDAY</span> -->
                             <span class="date">WOMEN CONFERENCE</span>
                             <!-- <h3><a href="#">Prayer and Counseling</a></h3> -->
                             <p>10:00am - 3:00pm</p>
-                            <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                            <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -335,52 +233,50 @@ require_once 'misionaries.php';
                         <p>Among our community and from the world</p>
                     </div>
                 </div>
+                <!-- Here -->
+                <div id="fh5co-bible-verse" style="background:#6495ED; color:white">
+                <div class="overlay"></div>
                 <div class="row">
-                    <div class="col-md-3 animate-box">
-                        <div class="news">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/img-1.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
-                            <div class="desc">
-                                <span class="date">March 30, 2017</span>
-                                <h3><a href="#">Miss Victoria</a></h3>
-                                <p>God has been faithful to me and my family...</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 animate-box">
-                        <div class="news">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/img-3.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
-                            <div class="desc">
-                                <span class="date">Healing: March 30, 2017</span>
-                                <h3><a href="#">Miss Victoria</a></h3>
-                                <p>God has healed me from the ---desease during the prayer sesion with Pst. James Nnege on Sunday...</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 animate-box">
-                        <div class="news">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/img-2.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
-                            <div class="desc">
-                                <span class="date">March 30, 2017</span>
-                                <h3><a href="#">Miss Victoria</a></h3>
-                                <p>God has been faithful to me and my family...</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 animate-box">
-                        <div class="news">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/img-4.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
-                            <div class="desc">
-                                <span class="date">Healing: March 30, 2017</span>
-                                <h3><a href="#">Miss Victoria</a></h3>
-                                <p>God has healed me from the ---desease during the prayer sesion with Pst. James Nnege on Sunday...</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row animate-box">
+                            <div class="owl-carousel owl-carousel-fullwidth">
+                                <div class="item">
+                                    <div class="bible-verse-slide active text-center">
+                                    <!-- <img class="img-responsive" src="images/img-1.jpg" alt="" style="width:130px; height:130px; border-radius:90px"> -->
+                                        <blockquote>
+                                        <h3><a href="#">Miss Victoria</a></h3>
+                                            <p>&ldquo;God has been faithful to me and my family...&ldquo;</p>
+                                            <span>March 30, 2017</span>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="bible-verse-slide active text-center">
+                                    <!-- <img class="img-responsive" src="images/img-1.jpg" alt="" style="width:130px; height:130px; border-radius:90px"> -->
+                                        <blockquote>
+                                        <h3><a href="#">Miss Victoria</a></h3>
+                                            <p>&ldquo;God has healed me from the ---desease during the prayer sesion with Pst. James Nnege on Sunday...&ldquo;</p>
+                                            <span>Healing: March 30, 2017</span>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="bible-verse-slide active text-center">
+                                    <!-- <img class="img-responsive" src="images/img-1.jpg" alt="" style="width:130px; height:130px; border-radius:90px"> -->
+                                        <blockquote>
+                                        <h3><a href="#">Miss Victoria</a></h3>
+                                            <p>&ldquo;God has been faithful to me and my family...&ldquo;</p>
+                                            <span>March 30, 2017</span>
+                                        </blockquote>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+                <!-- Ends here -->
+                
             </div>
         </div>
         <!-- END container-wrap -->

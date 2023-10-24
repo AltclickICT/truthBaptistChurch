@@ -46,6 +46,8 @@
 
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/min-style.css">
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -55,26 +57,62 @@
     <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+    <style>
+        nav a{
+            color:#DA9100 !important;
+        }
+        .dropdown{
+            background:#DA9100 !important;
+            width: fit-content;
+        }
+        .dropdown li a{
+            color:white !important;
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            justify-content:center;
+            border:1px solid #DA9100;
+        }
+        .fh5co-nav-toggle{
+            /* background-color: #DA9100 !important; */
+            padding: 6px !important;
+        }
+        .fh5co-nav-toggle i::before{
+            background:#DA9100 !important;
+        }
+        .fh5co-nav-toggle i::after{
+            background:#DA9100 !important;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="fh5co-loader"></div>
+    <div class="fh5co-loader" style="background: #DA9100; color:blue"></div>
 
-    <div id="page">
-        <nav class="fh5co-nav" role="navigation">
+    <div id="page" style="background:none">
+        <nav class="fh5co-nav" role="navigation" style="background:black;">
             <div class="container-wrap">
-                <div class="top-menu">
+                <div class="top-menu" style="background:black; color:#DA9100;">
                     <div class="row">
                         <div class="col-md-12 col-offset-0 text-center">
                             <!-- TRUTH INDEPENDENT BAPTIST CHURCH -->
                             <!-- <img src="images/tbc/Logo.jpg" class="img-responsive"> -->
-                            <div id="fh5co-log"><a href="index.html"><img src="images/tbc/Logo.jpg" width="50px" height="40px"><h2>TRUTH BAPTIST CHURCH</h2></a></div>
+                            <div id="fh5co-log">
+                                <a href="index.php"><img src="images/tbc/Logo.jpg" width="50px" height="40px">
+                                <div style="display: inline-flex;">
+                                <h2 style="color:#DA9100; font-family:poppins; margin:0;"><b style="color:#DA9100; font-family:poppins; margin:0;">TRUTH BAPTIST CHURCH</b></h2>
+                                <b style="color:#DA9100; font-size:10px; font-family:poppins; margin:0;">Fundamental Baptist Ministries International</b>
+                                </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-12 col-md-offset-0 text-center menu-1">
                             <ul>
-                                <li class="active"><a href="index.php">Home</a></li>
+                                <li class="active" style="color:#DA9100"><a href="index.php" style="color:#DA9100">Home</a></li>
                                 <li><a href="index.php#sermons">Sermons</a></li>
                                 <li><a href="index.php#missinaries">Pastors & Missionaries</a></li>
                                 <li class="has-dropdown">

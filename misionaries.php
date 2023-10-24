@@ -7,42 +7,52 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/Mark-Holmes.jpg" alt="Missionary Mark Holmes" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/mh.jpg" alt="Missionary Mark Holmes" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">Missionary Mark Holmes</a></h3>
+                                <h3>Missionary Mark Holmes</h3>
                                 <!-- <p>Phone Number:</p> -->
-                                <p>Facebook:</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                                <!--<p>Facebook: </p>-->
+                                <button class="accordion">Read More </button>
+                                
+                                <div id="mark" class="panel">
+                                    Mark Joseph Holmes was called to the ministry at the age of fifteen, five years after he was saved. He went to Hyles-Anderson College to receive his training and graduated summa cum laude in 2000 with a degree in Pastoral Theology. During Mark’s senior year, God placed on his heart the desire to reach the people of Nigeria, so he spent an extra year in preparation by taking missions courses. Mark served on the same bus route each college year, as captain for three years.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/pastor-emmanuel-okoh.jpg" alt="Pastor Emmanuel Okoh" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/eo.jpg" alt="Pastor Emmanuel Okoh" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">Pastor Emmanuel Okoh</a></h3>
+                                <h3>Pastor Emmanuel Okoh</h3>
                                 <!-- <p>Phone Number:</p> -->
-                                <p>Facebook:</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                                <button class="accordion">Read More </button>
+                                
+                                <div id="okoh" class="panel">
+                                    Loading...
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/pastor-justin-nenge.jpg" alt="Pastor Justin Nenge" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/jn.jpg" alt="Pastor Justin Nenge" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">Pastor Justin Nenge</a></h3>
+                                <h3>Pastor Justin Nenge</h3>
                                 <!-- <p>Phone Number:</p> -->
-                                <p>Facebook:</p>
-                                <a href="#">Read More <i class="icon-arrow-right3"></i></a>
+                                <button class="accordion">Read More </button>
+                                
+                                <div id="justine" class="panel">
+                                    Loading...
+                                </div>
                             </div>
                         </div>
                     </div>
                     
                 </div>
-                <hr style="border: 5px solid black;">
+                <hr style="border: 2px solid #DA9100;">
                 <!-- Missionaries -->
                 <div class="row animate-box">
                     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
@@ -51,27 +61,39 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/missionary-mark-and-sabrina-holmes.jpg" alt="Missionary Mark Holmes" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/mh.jpg" alt="Missionary Mark Holmes" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">Mark and Sabrina Holmes</a></h3>
+                                <h3>Missionary Mark and Sabrina Holmes</h3>
+                                <button class="accordion">Read More </button>
+                                <div id="dem" class="panel">
+                                    As newlyweds, Mark and Sabrina served at their sending church where Mark oversaw the bus ministry and helped in the youth department, Sunday schools, and junior churches. He was privileged to start a children's church and young adult class during his two years of service, and he also regularly preached at a prison ministry and taught for a local Bible institute. Sabrina taught private piano for two Christian schools; she played often in the church services and also taught the beginner Sunday school class. Mark and Sabrina started full-time deputation at the end of May, 2003. Mark Joseph, Junior was born on December 4th of the same year.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/missionary-daniel-and-erin-lang.jpg" alt="Pastor Emmanuel Okoh" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/de.jpg" alt="Pastor Emmanuel Okoh" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">David and Erin Lang</a></h3>
+                                <h3>Missionary Daniel and Erin Lang</h3>
+                                <button  class="accordion">Read More </button>
+                                <div id="de" class="panel">
+                                    Loading...
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
                         <div class="services">
-                            <a href="#" class="img-holder"><img class="img-responsive" src="images/tbc/pastors/missionary-caleb-and-emily-christiansen.jpg" alt="Pastor Justin Nenge" width="170px" height="150"></a>
+                            <img class="img-responsive round-image" src="images/tbc/pastors/cc.jpg" alt="Pastor Justin Nenge" width="170px" height="150">
                             <div class="desc">
-                                <h3><a href="#">Caleb and Emily Christiansen</a></h3>
+                                <h3>Missionary Caleb and Emily Christiansen</h3>
+                                <button  class="accordion">Read More </button>
+                                <div id="demoo" class="panel">
+                                    Loading...
+                                </div>
                             </div>
                         </div>
                     </div>

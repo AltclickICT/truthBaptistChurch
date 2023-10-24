@@ -1,5 +1,5 @@
-<div class="container-wrap">
-            <footer id="fh5co-footer" role="contentinfo">
+<div class="container-wrap" style="background:#6495ED;">
+            <footer id="fh5co-footer" role="contentinfo" style="background:#6495ED;">
                 <div class="col-md-4 text-center">
                     <!-- <h3>198 West 21th Street, Suite 721 New York NY 10016</h3> -->
                     <h3><strong class="icon-location4"  style="color: red;"></strong> Off Dr. Alasa Street, Behind Kasham Hotel, Area D, Nyanya, Abuja</h3>
@@ -84,6 +84,48 @@
     <script src="js/jquery.countTo.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
+    <script>
+    console.log("I am here")
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    console.log(panel);
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+// Ministries auto display function
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
 
 </body>
 
