@@ -37,7 +37,7 @@ require_once 'header.php';
                                 </div>
                             </div>
                             <h3>Sermon Title</h3>
-                            <span>Pst. James Nnege</span>
+                            <span>Pst. Justine Nenge</span>
                         </div>
                     </div>
                     <div class="col-md-4 text-center animate-box">
@@ -48,7 +48,7 @@ require_once 'header.php';
                                 </div>
                             </div>
                             <h3>Sermon Title</h3>
-                            <span>Pst. James Nnege</span>
+                            <span>Pst. Emmanuel Okoh</span>
                         </div>
                     </div>
                     <div class="col-md-4 text-center animate-box">

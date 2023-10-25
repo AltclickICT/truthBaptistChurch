@@ -61,13 +61,16 @@
         nav a{
             color:#DA9100 !important;
         }
+        .fh5co-nav ul li.active a{
+            color:#DA9100 !important;
+        }
         .dropdown{
-            background:#DA9100 !important;
+            background:black !important;
             width: fit-content;
         }
-        .dropdown li a{
-            color:white !important;
-        }
+        /* .dropdown li a{
+            color:#DA9100 !important;
+        } */
         .panel {
             padding: 0 18px;
             background-color: white;
@@ -112,7 +115,7 @@
                         </div>
                         <div class="col-md-12 col-md-offset-0 text-center menu-1">
                             <ul>
-                                <li class="active" style="color:#DA9100"><a href="index.php" style="color:#DA9100">Home</a></li>
+                                <li class="active" style="color:#DA9100"><a href="index.php" style="color:#DA9100;">Home</a></li>
                                 <li><a href="index.php#sermons">Sermons</a></li>
                                 <li><a href="index.php#missinaries">Pastors & Missionaries</a></li>
                                 <li class="has-dropdown">

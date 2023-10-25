@@ -36,11 +36,13 @@ body {
     padding: 10px;
     position: absolute;
     bottom: 20px;
+    left: 120px;
     /* width: 100%; */
     text-align: center;
     opacity: 0.5;
-    width: fit-content;
-    margin: auto;
+    width: 50%;
+    /* margin: auto; */
+    /* margin-left: 60px !important; */
 }
 
 .text #texting {
@@ -83,9 +85,10 @@ body {
     transition: background-color 0.6s ease;
 }
 
-.active {
-    background-color: #DA9100 !important;
-}
+
+/* .active {
+    background-color: black !important;
+} */
 
 
 /* Fading animation */
