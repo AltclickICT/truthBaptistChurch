@@ -50,6 +50,17 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 animate-box">
+                        <div class="services">
+                            <img class="img-responsive round-image" src="images/tbc/pastors/jn.jp" alt="Pastors list" width="170px" height="150">
+                            <div class="desc">
+                                <h3>All Pastors List</h3>
+                                <!-- <p>Phone Number:</p> -->
+                                <button class="accordion"><a href="pastors.php">View Pastor List</a></button>
+                                
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
                 <hr style="border: 2px solid #DA9100;">

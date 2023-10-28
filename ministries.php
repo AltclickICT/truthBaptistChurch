@@ -16,7 +16,7 @@
   <img src="images/tbc/graduation.jpg" alt="Providence Baptist College" style="width:40%; height:200px;">
   <div class="text">
     <div id="texting"><h2>Seminary (Providence BC&S)</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="seminary.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>
@@ -111,7 +111,7 @@
   <center>
   <img src="images/tbc/deaf1.jpg" alt="Deaf Ministry" style="width:40%; height:200px;">
   <div class="text"><div id="texting"><h2>Youth Camp (S.M.I.T.E)</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="smite.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>
@@ -120,7 +120,7 @@
   <center>
   <img src="images/tbc/deaf1.jpg" alt="Deaf Ministry" style="width:40%; height:200px;">
   <div class="text"><div id="texting"><h2>City of Refuge</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="refuge.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>
@@ -129,7 +129,7 @@
   <center>
   <img src="images/tbc/deaf1.jpg" alt="Deaf Ministry" style="width:40%; height:200px;">
   <div class="text"><div id="texting"><h2>Tree of Life</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="tree.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>
@@ -138,7 +138,7 @@
   <center>
   <img src="images/tbc/deaf1.jpg" alt="Deaf Ministry" style="width:40%; height:200px;">
   <div class="text"><div id="texting"><h2>Conference (S.W.L.C)</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="conference.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>
@@ -147,7 +147,7 @@
   <center>
   <img src="images/tbc/deaf1.jpg" alt="Deaf Ministry" style="width:40%; height:200px;">
   <div class="text"><div id="texting"><h2>Correspondence Colleg (DVD'S)</h2>
-    <a href="news.php">Read More <i class="icon-arrow-right3"></i></a></div>
+    <a href="dvd.php">Read More <i class="icon-arrow-right3"></i></a></div>
   </div>
   </center>
 </div>

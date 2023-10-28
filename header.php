@@ -89,12 +89,25 @@
         .fh5co-nav-toggle i::after{
             background:#DA9100 !important;
         }
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+            width:90%;
+            padding:20px;
+        }
+        /* tr:nth-child(even) {
+            background-color: #DA9100;;
+        } */
+        tr,td {
+            border: 2px solid #DA9100;
+            padding:5px;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="fh5co-loader" style="background: #DA9100; color:blue"></div>
+    <div class="fh5co-loader"></div>
 
     <div id="page" style="background:none">
         <nav class="fh5co-nav" role="navigation" style="background:black;">
@@ -136,6 +149,7 @@
                                 </li>
                                 <li><a href="events.php">Events</a></li>
                                 <li><a href="about.php">About</a></li>
+                                <li><a href="https://missionaryholmes.blogspot.com/">Our Blog</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                                 <li><a href="donate.php" class="donate">Donate</a></li>
                             </ul>

@@ -13,8 +13,11 @@ require_once 'header.php';
                                         <div class="slider-text">
                                             <div class="slider-text-inner">
                                                 <h1>Living &amp; Sharing the Gospel of God</h1>
+                                                <h5 style="color:#DA9100">For frequent updates, follow us on our blog</h5>
+                                                <div><p><b>Our Statement of Faith is consistent with...</b></p></div>
                                                 <p>
-                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch</a> <a class="btn btn-primary btn-learn" href="https://missionaryholmes.blogspot.com/">Our Blog <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -29,8 +32,10 @@ require_once 'header.php';
                                         <div class="slider-text">
                                             <div class="slider-text-inner">
                                                 <h1>Tell The World About Jesus</h1>
+                                                <h5 style="color:#DA9100">For frequent updates, follow us on our blog</h5>
                                                 <p>
-                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch</a> <a class="btn btn-primary btn-learn" href="https://missionaryholmes.blogspot.com/">Our Blog <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,8 +50,10 @@ require_once 'header.php';
                                         <div class="slider-text">
                                             <div class="slider-text-inner text-center">
                                                 <h1>Know More About Jesus</h1>
+                                                <h5 style="color:#DA9100">For frequent updates, follow us on our blog</h5>
                                                 <p>
-                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch Video</a> <a class="btn btn-primary btn-learn">Join us here! <i class="icon-arrow-right3"></i></a></p>
+                                                    
+                                                    <a class="btn btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774" style="background:#DA9100"> <i class="icon-play4" style="background:#DA9100"></i> Watch</a> <a class="btn btn-primary btn-learn" href="https://missionaryholmes.blogspot.com/">Our Blog <i class="icon-arrow-right3"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -151,16 +158,16 @@ require_once 'sermons1.php';
                 </div>
                 
                 <div class="container row" style="display:flex;">
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-sm-6 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">SUNDAY</span> -->
                             <span class="date">SMITE</span>
                             <!-- <h3><a href="#">Service</a></h3> -->
                             <p>8:00am-10:00am</p>
-                            <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
+                            <a href="smite.php" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-sm-6 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">TUESDAY</span> -->
                             <span class="date">CONFERENCES</span>
@@ -169,13 +176,22 @@ require_once 'sermons1.php';
                             <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 animate-box">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-sm-6 animate-box">
                         <div class="events-entry">
                             <!-- <span class="date">WEDNESDAY</span> -->
                             <span class="date">WOMEN CONFERENCE</span>
                             <!-- <h3><a href="#">Prayer and Counseling</a></h3> -->
                             <p>10:00am - 3:00pm</p>
                             <a href="#" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-sm-6 animate-box">
+                        <div class="events-entry">
+                            <!-- <span class="date">SUNDAY</span> -->
+                            <span class="date">Grace & Glory Baptist Church</span>
+                            <!-- <h3><a href="#">Service</a></h3> -->
+                            <p>Click on the Read more button.</p>
+                            <a href="ggchurch.php" style="color:#DA9100">Read More <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
