@@ -12,7 +12,7 @@ require_once 'header.php';
                                     <div class="col-md-6 col-md-offset-3 text-center slider-text">
                                         <div class="slider-text-inner">
                                             <h1>Watch Our Sermons</h1>
-                                            <h2>Heighlight of some recent sermons</h2>
+                                            <h2>Highlights of some recent sermons</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ require_once 'header.php';
                                 </div>
                             </div>
                             <h3>Sermon Title</h3>
-                            <span>Pst. James Nnege</span>
+                            <span>Missionary Caleb Christiansen</span>
                         </div>
                     </div>
                     <div class="col-md-4 text-center animate-box">
@@ -81,7 +81,7 @@ require_once 'header.php';
                                 </div>
                             </div>
                             <h3>Sermon Title</h3>
-                            <span>Pst. James Nnege</span>
+                            <span>Missionary Daniel Lang</span>
                         </div>
                     </div>
                     <div class="col-md-4 text-center animate-box">
@@ -92,7 +92,7 @@ require_once 'header.php';
                                 </div>
                             </div>
                             <h3>Sermon Title</h3>
-                            <span>Pst. James Nnege</span>
+                            <span>Pst. Mark Holmes</span>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ require_once 'header.php';
             <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center animate-box">
-                        <p>We have a fun facts far far away, we are available in 10+ states in Nigeria</p>
+                        <p>Sprading the Gospel is our watchword!</p>
                     </div>
                 </div>
                 <div class="row animate-box">
